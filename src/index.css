@@ -5,7 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Indie Flower', cursive;
+}
+
+input[type="search"]::placeholder {  
+                  
+  /* Firefox, Chrome, Opera */ 
+  text-align: center; 
+} 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
